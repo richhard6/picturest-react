@@ -34,7 +34,6 @@ jobs:
         CI: false
       run: yarn build
 
-
  PublishToNetlify:
     #if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     if: github.event_name == 'push' && github.ref == 'refs/heads/deployment'
